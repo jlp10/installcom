@@ -1,0 +1,11 @@
+linux install setting:
+change grub:
+	sudo vi /etc/default/grub
+	sudo update-grub
+tools:
+	sudo apt-get update
+	sudo apt-get install tree synaptic 
+	sudo apt-get install fcitx
+	sudo apt-get remove vim-common
+	sudo apt-get install vim
+        sudo updatedb  (locate)

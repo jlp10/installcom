@@ -1,0 +1,5 @@
+#! /bin/bash
+# 启动TUNet
+
+~/bin/Tunet/TUNet64 > /dev/null &
+exit	
